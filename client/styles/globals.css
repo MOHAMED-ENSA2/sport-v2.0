@@ -1,0 +1,83 @@
+:root{
+  --clr-black : 10, 12, 16 ; 
+  --clr-white : 242, 245, 247 ;
+  /* --clr-white : 10, 12, 16 ; 
+  --clr-black : 242, 245, 247 ; */
+  --clr-grey : 215, 213, 221 ; 
+  --clr-hardgray : 184,184,184; 
+  --clr-blue : 68, 51, 255; 
+  --clr-skyblue : 87, 115, 255; 
+}
+
+/* css reset */
+html,
+body {
+  font-family: 'Cairo', sans-serif;
+  
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(var(--clr-black));
+  background-color: rgb(var(--clr-grey) , .3);
+  /* background-color: #292929; */
+
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select,a {
+  font: inherit;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* utility classes */
+
+.bg-black{
+  background: rgb(var(--clr-black));
+}
+.bg-white{
+  background-color: rgb(var(--clr-white));
+}
+.bg-grey{
+  background-color: rgb(var(--clr-grey));
+}
+.clr-black{
+  color:  rgb(var(--clr-black));
+}
+.clr-white{
+  color: rgb(var(--clr-white));
+}
+.clr-blue{
+  color: rgb(var(--clr-blue ));
+}
+.clr-skyblue{
+  color: rgb(var(--clr-skybl)ue );
+}
+
+
+

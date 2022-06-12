@@ -1,0 +1,42 @@
+.wrapper{
+    background: rgb(var(--clr-white));
+    font-size: .9rem;
+    font-weight: 400;
+    
+    width: 13rem;
+    padding-inline: .5rem ;
+}
+
+.currentminute{
+    color: red;
+    font-weight: 600;
+}
+
+.guime{
+    animation: tiktak .5s linear infinite;
+}
+@keyframes tiktak {
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.logo{
+    position: relative;
+    width: 17px;
+    height: 17px;
+}
+.left{
+    text-align: left;
+}
+
+.fontweight300{
+    font-weight: 300;
+}
+
+.league{
+    font-size: .8rem;
+    text-align: right;
+}

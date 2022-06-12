@@ -1,0 +1,49 @@
+.wrapper{
+    max-width: 900px;
+}
+.title{
+    font-size: 1.4rem;
+    font-weight: 700;
+    
+    margin-bottom: 1.5rem;
+}
+
+.sections{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.left{
+    width: 400px;
+}
+
+.right{
+    width: 400px;
+}
+
+.section{
+    
+    padding: .4rem 1rem;
+    border-bottom: 1px solid rgb(var(--clr-black), .15);
+    margin-bottom: 1rem;
+
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.section >div:first-child{
+    font-size: .95rem;
+    font-weight: 400;
+}
+
+.section >div:last-child{
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+.nationality{
+    display: flex;
+    gap : .5rem;
+    align-items: center;
+}

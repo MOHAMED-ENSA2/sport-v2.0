@@ -1,0 +1,76 @@
+.wrapper{
+    max-width: 600px;
+    line-height: 1.3;
+}
+
+.header{
+    color: rgb(var(--clr-black), .6);
+    /* color: rgb(var(--clr-white)); */
+    background: rgb(var(--clr-grey));
+    /* background: rgb(var(--clr-black)); */
+    font-size: .85rem;
+    font-weight: 600;
+    padding: .3rem 1rem;
+
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+
+    line-height: 2;
+}
+
+.logo{
+    position: relative;
+    width: .7rem;
+    height: .7rem;
+}
+
+.match{
+    padding: .5rem 2rem;
+    border-bottom: 1px solid rgb(var(--clr-grey));
+    
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    align-items: center;
+    
+    cursor: pointer;
+}
+
+.match_typeB{
+    display: grid;
+    grid-template-columns: 2fr 6fr 1fr;
+    align-items: center;
+}
+
+.match:hover{
+    background: rgb(var(--clr-grey));
+}
+
+.teams{
+    display: flex;
+    flex-direction: column;
+    gap : .6rem
+}
+
+.team{
+    font-size: .8rem;
+    font-weight: 600;
+    display: flex;
+    gap: .6rem;
+    align-items: center;
+}
+
+.score{
+    font-size : .8rem;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap : .5rem
+}
+
+.time{
+    color: rgb(var(--clr-black), .6);
+    font-size: .8rem;
+    font-weight: 400;
+}
+

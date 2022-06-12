@@ -1,0 +1,40 @@
+.wrapper{
+    font-size: 1rem;
+    background: rgb(var(--clr-white));
+    /* max-height: 5rem; */
+    display: flex;
+    cursor: pointer;    
+}
+
+.text{
+    padding-right: 1rem;
+
+    display: flex ; 
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.image{
+    position: relative;
+    width: 7rem;
+    height: 5.5rem;
+}
+
+.title{
+    font-weight: 600;
+}
+
+.tag{
+    font-weight: 300;
+}
+
+.time{
+    font-weight: 300;
+    font-size: .8rem;
+}
+
+
+.wrapper:hover .title{
+    text-decoration: underline;
+}
+
